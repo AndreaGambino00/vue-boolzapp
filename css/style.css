@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/****************************** MILENSTONE 1 **********************+**/
+
+/* RETROPAGINA */
+
+.retro-green {
+    width: 100%;
+    height: 15vh;
+    background-color: #038C73;
+}
+.retro-gray {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    background-color: #DADBD4;
+}
+
+/********************************** SCHERMO-CONTACT ***********************/
+
+.schermo-contact {
+    position: relative;
+    bottom: 70px;
+    left: 58px;
+    width: 35%;
+    height: 90vh;
+    background-color: white;
+    margin: 0 auto;
+    
+}
+
+/* USER */
+
+.user {
+    width: 100%;
+    height: 60px;
+    background-color: #EAEAEA;
+    
+}
+
+/* NOTIFICHE */
+
+.notifiche {
+    width: 100%;
+    height: 70px;
+    background-color: #8DD5F2;
+}
+
+/* SEARCH */
+
+.search {
+    width: 100%;
+    height: 40px;
+    background-color: #038C73;
+}
+
+/* CONTACT */
+
+.contact {
+    width: 100%;
+    height: 540px;
+    background-color: white;
+}
+
+/************************+******************** SCHERMO-CHAT ****************************/
+
+.schermo-chat {
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+    width: 50%;
+    height: 90vh;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* MY-CONTACT */
+
+.my-contact {
+    width: 100%;
+    height: 60px;
+    background-color: #EAEAEA;
+}
+
+/* CHAT */
+
+.chat {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/mine.jpg);
+}
+
+/* TEXT-MESSAGE */
+
+.text-message {
+    width: 100%;
+    height: 50px;
+    background-color: #F3EEEA;
+}
