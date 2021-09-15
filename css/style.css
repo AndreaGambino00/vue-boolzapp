@@ -101,13 +101,14 @@
 /* CONTACT */
 
 .contact {
+    
     width: 100%;
     height: 540px;
     background-color: white;
     overflow-y: scroll;
 }
 
-.contact img {
+#contatti img {
     width: 50px;
     height: 60px;
     border-radius: 40px;
@@ -116,10 +117,11 @@
     vertical-align: middle;
 }
 
-li {
-    list-style-type: none;
-    border-bottom: 1px solid #F5F5F5;
+#contatti h3 {
+    display: inline;
+    cursor: pointer;
 }
+
 
 
 /************************+******************** SCHERMO-CHAT ****************************/
@@ -170,8 +172,20 @@ li {
 
 .chat {
     width: 100%;
-    height: 600px;
+    height: 200px;
     background-image: url(../img/mine.jpg);
+    overflow-y: scroll;
+}
+
+
+
+#verde{
+    background-color: rgb(19, 233, 19);
+    margin-left: 50%;
+}
+
+#bianco{
+    background-color: white;
 }
 
 /* TEXT-MESSAGE */
